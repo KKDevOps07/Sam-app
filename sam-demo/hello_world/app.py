@@ -36,7 +36,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "hello this is kiran i am learning Serveless CI/CD",
+            "message": "Serveless CI/CD, using Canary deployments",
             # "location": ip.text.replace("\n", "")
         }),
     }
